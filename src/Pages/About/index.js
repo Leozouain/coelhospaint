@@ -7,10 +7,10 @@ export default function About() {
     return (
         <>
             <Back/>
-            <div className=' mt-7 flex flex-col justify-center m-auto w-4/6  h-full'>
+            <div className=' mt-7 flex flex-col justify-center m-auto w-[95%] md:w-[90%] xl:w-4/6  h-full'>
                 
                 <div className="h-full bg-cover bg-no-repeat h-fit flex items-end justify-end mx- bg-center" style={{ backgroundImage: `url(${back})` }}>
-                    <div className='container-md  w-full 2xl:w-2/6 xl:w-4/6 bg-gray-100/[0.6] flex  px-9 py-14 flex-col  '>
+                    <div className='container-md  w-full 2xl:w-2/6 xl:w-4/6 bg-gray-100/[0.8] xl:bg-gray-100/[0.6] flex px-3 md:px-9 py-14 flex-col  '>
                         <h1 className='text-4xl font-bold flex text-center justify-center mb-3'>About Us</h1>
                         <p className='text-xl'>
                             Coelho’s Building and Painting Company boasts nearly 20 years  experience providing  General Remodeling and Painting Services.

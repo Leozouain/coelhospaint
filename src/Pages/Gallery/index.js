@@ -42,21 +42,22 @@ export default function Gallery() {
 
     return (
         <div className="flex justify-center w-full sm:w-5/6 m-auto mt-7">
-            <div className="grid  gap-3 w-5/6 grid-cols-custom2 sm:grid-cols-custom " >
-                                                                                                                       
+            <div className="grid  gap-2 w-full m-2 sm:w-5/6 grid-cols-custom2 lg:grid-cols-custom " >
+
                 {images.map((image, i) => (
-                    
+
                     <ImageViewer  >
-                        
-                        <img className="h-[100%]"
-                            key={i}
-                            src={image}
-                            style={{  height: '100%', display: "block", cursor: 'pointer', boxShadow: "-1px 0px 0px" }}
-                            onClick={() => viewImage(image, i)}
-                        />
+                        <div className="flex justify-center ">
+                            <img className="h-[150px] w-[150px] lg:h-[400px] lg:w-[400px] md:h-[250px] md:w-[250px] object-cover"
+                                key={i}
+                                src={image}
+                                style={{  display: "block", cursor: 'pointer', boxShadow: "-1px 0px 0px" }}
+                                onClick={() => viewImage(image, i)}
+                            />
+                        </div>
                     </ImageViewer>
                 ))}
-                
+
 
             </div>
         </div>

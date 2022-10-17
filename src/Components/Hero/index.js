@@ -6,7 +6,7 @@ import hero1 from "../../asssets/photos/bath.png"
 export default function Hero() {
     return (
         <>
-            <div id=" carouselExampleControls" className=" md:container md:mx-auto flex justify-center carousel slide relative  container mx-auto mb-3" data-bs-ride="carousel">
+            <div id=" carouselExampleControls" className="hidden md:container md:mx-auto sm:flex justify-center carousel slide relative  container mx-auto mb-3" data-bs-ride="carousel">
                 <div className="carousel-inner relative w-5/6 overflow-hidden">
                     <div className="carousel-item active relative float-left w-full">
                         <img
