@@ -10,7 +10,7 @@ export default function Home() {
             <div className="flex justify-center md:h-96  lg:h-fit">
                 <div className="rounded-lg shadow-lg  max-w-sm">
                     <Link to="/services">
-                        <img className="rounded-t-lg" src={bath} alt="" />
+                        <img className="rounded-t-lg" src='https://picsum.photos/1600/1300?image=185' alt="" />
                     </Link>
                     <div className="p-6 flex flex-col ">
                         <h5 className="flex items-center m-auto text-gray-900 text-xl font-medium mb-2 overflow-hidden ">Services</h5>
@@ -27,7 +27,7 @@ export default function Home() {
             <div className="flex justify-center md:h-96 lg:h-fit">
                 <div className="rounded-lg shadow-lg  max-w-sm">
                     <Link to="/portifolio">
-                        <img className="rounded-t-lg" src="https://picsum.photos/1600/1300?image=1055" alt="" />
+                        <img className="rounded-t-lg" src="https://picsum.photos/1600/1300?image=155" alt="" />
                     </Link>
                     <div className="p-6 flex flex-col ">
                         <h5 className="flex items-center m-auto text-gray-900 text-xl font-medium mb-2">Portifolio</h5>
