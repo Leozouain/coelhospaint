@@ -6,8 +6,8 @@ export default function Services() {
     return (
         <>
             <Back />
-            <div className="w-5/6  flex justify-center m-auto  mb-[3rem] mt-0 md:mt-[3rem]">
-                <div className="w-5/6 bg">
+            <div className="  w-[95%] md:w-[95%] xl:w-5/6 flex justify-center m-auto  mb-[3rem] mt-0 md:mt-[3rem]">
+                <div className="w-full bg">
                     <div className="flex bg-gray-100 p-5 rounded-lg">
                         <img className=" w-full hidden md:flex h-96 md:h-auto object-cover md:w-[300px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://picsum.photos/600/400?image=999" alt="" />
                         <div className="p-6 flex flex-col justify-start">
@@ -25,8 +25,8 @@ export default function Services() {
             </div>
 
 
-            <div className="w-5/6  flex justify-center m-auto mb-[3rem] ">
-                <div className="w-5/6 bg">
+            <div className="w-[95%] md:w-[95%] xl:w-5/6 flex justify-center m-auto mb-[3rem] ">
+                <div className="w-full bg">
                     <div className="flex bg-gray-100 p-5 rounded-lg">
                         <img className=" w-full hidden md:flex h-96 md:h-auto object-cover md:w-[300px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://picsum.photos/600/400?image=678" alt="" />
                         <div className="p-6 flex flex-col justify-start">
@@ -38,8 +38,8 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-            <div className="w-5/6  flex justify-center m-auto ">
-                <div className="w-5/6 bg">
+            <div className="w-[95%] md:w-[95%] xl:w-5/6 flex justify-center m-auto ">
+                <div className="w-full bg">
                     <div className="flex bg-gray-100 p-5 rounded-lg">
                         <img className=" w-full hidden md:flex h-96 md:h-auto object-cover md:w-[300px] rounded-t-lg md:rounded-none md:rounded-l-lg" src="https://picsum.photos/600/400?image=159" alt="" />
                         <div className="p-6 flex flex-col justify-start">
