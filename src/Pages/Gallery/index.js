@@ -41,14 +41,14 @@ export default function Gallery() {
 
 
     return (
-        <div className="flex justify-center  w-5/6 m-auto mt-7">
-            <div className="grid  gap-3 w-5/6 sm:grid-cols-custom " >
+        <div className="flex justify-center w-full sm:w-5/6 m-auto mt-7">
+            <div className="grid  gap-3 w-5/6 grid-cols-custom2 sm:grid-cols-custom " >
                                                                                                                        
                 {images.map((image, i) => (
                     
                     <ImageViewer  >
                         
-                        <img
+                        <img className="h-[100%]"
                             key={i}
                             src={image}
                             style={{  height: '100%', display: "block", cursor: 'pointer', boxShadow: "-1px 0px 0px" }}

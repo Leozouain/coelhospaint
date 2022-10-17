@@ -6,8 +6,9 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        'custom': 'repeat(auto-fit, minmax(300px, 1fr))'
-
+        'custom': 'repeat(auto-fit, minmax(300px, 1fr))',
+        'custom2': 'repeat(auto-fit, minmax(110px, 1fr))',
+        
       }
     },
   },
