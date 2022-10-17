@@ -1,0 +1,45 @@
+.nav{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 2px solid rgba(225, 223, 223, 0.12);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+    
+    
+    
+}
+.btn{
+    margin:0 10px;
+    
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btn:hover{
+    background-color: rgba(246, 243, 243, 0.398);
+    padding: 5px 5px ;
+    border-bottom: 5px solid black;
+}
+.logo{
+    width: 300px;
+    
+}
+
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav{
+        flex-direction: column;
+    }
+}
+

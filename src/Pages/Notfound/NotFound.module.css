@@ -1,0 +1,12 @@
+
+
+.pageImg{
+    background-image: url(../../asssets/photos/error-404-concept-landing-page_52683-12188.png);
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 25px 0;
+    background-size: contain;
+    
+}
