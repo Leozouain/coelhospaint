@@ -52,6 +52,9 @@ export default function Contact() {
                                </>
                                <Input className='w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-black outline-none focus:border-gray-700 focus:shadow-md'
                                 country="US"
+                                placeholder='(999) 999-9999'
+                                minlength="14"
+                                maxlength="14"
                                 value={value}
                                 onChange={setValue}/>
                                 
